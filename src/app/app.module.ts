@@ -14,6 +14,7 @@ import { Post1Component } from './post1/post1.component';
 import { CommentComponent } from './comment/comment.component';
 import { ImageComponent } from './image/image.component';
 import { AlbumsComponent } from './albums/albums.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { AlbumsComponent } from './albums/albums.component';
     AlbumComponent,
     Post1Component,
     CommentComponent,
+    LoginComponent,
     ImageComponent,
     AlbumsComponent
   ],
