@@ -5,7 +5,7 @@
     <p>Completed:<input type="text" formControlName="completed"></p>
     <button (click)="task1(taskForm)">Show</button>
 </form>
-<input type="text" placeholder="Search" [(ngModel)]="search"> 
+
 <table>
     <tr>
         <th>User-Id</th>
@@ -13,7 +13,7 @@
         <th>Title</th>
         <th>Completed</th>
     </tr>
-    <tr *ngFor='let a of record | filter:search'>
+    <tr *ngFor='let a of record'>
         <td>{{a.userId}}</td>
         <td>{{a.id}}</td>
         <td>{{a.title}}</td>
