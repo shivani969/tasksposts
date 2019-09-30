@@ -1,0 +1,6 @@
+<h2>Albums</h2>
+<hr>
+<div *ngFor="let c of tdata" (click)="photos(c)">
+    <p>{{c.title}}</p>
+    <img src="{{c.thumbnailUrl}}">
+</div>
