@@ -20,8 +20,6 @@ export class RegisterComponent implements OnInit {
   ngOnInit() {
   }
   register(a){
-    //let name =this.registerForm.get('email').value
-    //let password =this.registerForm.get('password').value
     let body={
       email:a.value.name,
       password:a.value.password

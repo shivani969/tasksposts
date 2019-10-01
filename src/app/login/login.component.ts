@@ -21,15 +21,12 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
  loginpage(a){
-   //let name=this.loginform.get('email').value
-     // let password =this.loginform.get('password').value
      let body={
        email:a.value.name,
        password:a.value.password,
      }
      this.http.post('https://reqres.in/api/users',body).subscribe(result=> {
       console.log(result)
-       //this.router.navigateByUrl("")
      })
     }
  }
